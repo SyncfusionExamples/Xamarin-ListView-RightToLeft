@@ -11,7 +11,7 @@ namespace ListViewRTL
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Orientation();
         }
 
         protected override void OnStart()
