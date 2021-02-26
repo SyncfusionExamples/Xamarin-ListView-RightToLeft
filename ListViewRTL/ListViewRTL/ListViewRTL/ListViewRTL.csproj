@@ -10,7 +10,49 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="17.2.0.28-beta" />
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <None Remove="Pizzas\Pizza0.jpg" />
+    <None Remove="Pizzas\Pizza1.jpg" />
+    <None Remove="Pizzas\Pizza10.jpg" />
+    <None Remove="Pizzas\Pizza11.jpg" />
+    <None Remove="Pizzas\Pizza12.jpg" />
+    <None Remove="Pizzas\Pizza13.jpg" />
+    <None Remove="Pizzas\Pizza14.jpg" />
+    <None Remove="Pizzas\Pizza15.jpg" />
+    <None Remove="Pizzas\Pizza16.jpg" />
+    <None Remove="Pizzas\Pizza17.jpg" />
+    <None Remove="Pizzas\Pizza2.jpg" />
+    <None Remove="Pizzas\Pizza3.jpg" />
+    <None Remove="Pizzas\Pizza4.jpg" />
+    <None Remove="Pizzas\Pizza5.jpg" />
+    <None Remove="Pizzas\Pizza6.jpg" />
+    <None Remove="Pizzas\Pizza7.jpg" />
+    <None Remove="Pizzas\Pizza8.jpg" />
+    <None Remove="Pizzas\Pizza9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Pizzas\Pizza0.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza1.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza10.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza11.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza12.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza13.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza14.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza15.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza16.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza17.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza2.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza3.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza4.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza5.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza6.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza7.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza8.jpg" />
+    <EmbeddedResource Include="Pizzas\Pizza9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="18.4.0.44" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
   </ItemGroup>
 </Project>

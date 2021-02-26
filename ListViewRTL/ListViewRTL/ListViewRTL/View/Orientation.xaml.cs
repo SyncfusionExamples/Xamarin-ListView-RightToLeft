@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
+using Xamarin.Forms.Internals;
 
 namespace ListViewRTL
 {
-    public partial class MainPage : ContentPage
+    [Preserve(AllMembers = true)]
+    public partial class Orientation : ContentPage
     {
-        public MainPage()
+        public Orientation()
         {
             InitializeComponent();
         }
+    
     }
 }
