@@ -6,7 +6,26 @@ The ListView supports to change the flow of text to the right-to-left direction 
 <ContentPage  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms">
     <ContentPage.Content>
-       <syncfusion:SfListView x:Name="listView" FlowDirection="RightToLeft"/>
+       <syncfusion:SfListView x:Name="listView" ItemsSource="{Binding PizzaInfo}"
+               Grid.Row="1"
+               Padding="10"
+               SelectionMode="None"
+               Orientation="Horizontal"
+               ItemSpacing="5,10,5,10"
+               FlowDirection="RightToLeft">
+         <syncfusion:SfListView.ItemTemplate>
+               <DataTemplate>
+                  <Frame BackgroundColor="#EEEEEE" Padding="2">
+                     <Grid RowSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                           <code>
+                           . . .
+                           . . .
+                           <code>
+                     </Grid>
+                  </Frame>
+               </DataTemplate>
+         </syncfusion:SfListView.ItemTemplate>
+      </syncfusion:SfListView>
     </ContentPage.Content>
 </ContentPage>
 ```
